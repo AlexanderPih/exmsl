@@ -1,0 +1,124 @@
+.faqwrapper{
+margin-top: 20px;	
+}
+.faqwrapperadmin {
+margin: 20px auto;
+padding-left: 5px;
+padding-bottom: 10px;
+border: 1px dashed #588C7E;
+width: 100%;
+}
+.answer {
+margin-left: 20px;
+margin-top: 20px;
+}
+.equationwrapper {
+width: 100%;
+min-height: 200px;
+}
+
+.equation {
+border: 3px dashed #588C7E;
+width: 100%;
+min-height: 150px;
+padding: 30px;
+margin-top: 40px;
+text-align: center;
+}
+
+.equation ul {
+
+margin: 0;
+padding: 0;
+}
+.equation li {
+list-style: none;
+padding: 5px;
+font-size: 90%;
+}
+.equation li:first-child {
+border-top: 0;
+}
+
+.titlewrapper {
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.ticket {
+float: left;
+width: 81%;
+}
+
+.date {
+float: right;
+width: 19%;
+}
+
+.infowrapper {
+margin-top: 20px;
+}
+
+.userinfo {
+margin: 20px 0px;
+	
+}
+.buttonwrapper {
+text-align: center;
+}
+.separator {
+border-bottom: 2px dashed #000000;
+margin-bottom: 20px;
+width: 100%;
+}
+
+@media (max-width: 1016px) {
+.ticket {
+float: left;
+width: 80%;
+}
+.date {
+float: right;
+width: 20%;
+}
+}
+@media (max-width: 963px) {
+.ticket {
+float: left;
+width: 78%;
+}
+.date {
+float: right;
+width: 22%;
+}
+}
+@media (max-width: 876px) {
+.ticket {
+float: left;
+width: 76%;
+}
+.date {
+float: right;
+width: 24%;
+}
+}@media (max-width: 805px) {
+.ticket {
+float: left;
+width: 75%;
+}
+.date {
+float: right;
+width: 25%;
+}
+}
+@media (max-width: 770px) {
+.ticket {
+float: left;
+width: 74%;
+}
+.date {
+float: right;
+width: 26%;
+}
+}

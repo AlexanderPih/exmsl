@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+/* colours:
+navabar:
+#260126
+contenu:
+#BFAF80
+main page:
+body:
+#F2EEB3
+#59323C
+footer:
+#8C6954
+*/
+.Asubmit {
+margin-left: 0px !important;
+}
+form{
+width:100%;
+/*margin:4% 15%;*/
+}
+label {
+margin-left: 0;
+}
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 0;
+width: 100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+.faq{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 0;
+width: 100%;
+padding: 15px;
+border-radius:5px;
+min-height: 150px;
+border:1px solid #7ac9b7;
+}
+input[type=password]{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 0;
+width: 100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+/*textarea{*/
+/*margin-bottom: 20px;*/
+/*margin-top: 10px;*/
+/*margin-left: 0;*/
+/*width: 100%;*/
+/*padding: 15px;*/
+/*border-radius:5px;*/
+/*border:1px solid #7ac9b7;*/
+/*}*/
+select{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 0;
+width: 100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background: url(../images/br_down.png) no-repeat right #fff;
+-webkit-appearance: none;
+background-position-x: 97%; 
+}
+select::-ms-expand {
+ display: none;
+}

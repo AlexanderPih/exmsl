@@ -1,0 +1,267 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+/* colours:
+navabar:
+#260126
+contenu:
+#BFAF80
+main page:
+body:
+#F2EEB3
+#59323C
+footer:
+#8C6954
+*/
+/* reset */
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body {
+font: normal 18px/22px "Varela Round", sans-serif;
+background-color: #F2EEB3;
+color: #2e2e2e;
+}
+.messages {
+display: block;
+color: red;
+font-size: 30px;
+text-align: center;
+margin: 10px;
+padding: 5px;
+}
+.navbar {
+box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
+}
+.contenu {
+position: relative;
+background: #BFAF80 ;
+}
+.info {
+margin-left: 40px;
+margin-top: 5px;
+}
+h1, h2, h3 {
+font-family: "Signika", sans-serif;
+font-weight: 600;
+}
+h1 {
+font-size: 36px;
+line-height: 46px;
+color: #59323C;
+}
+h2 {
+font-size: 24px;
+line-height: 33px;
+margin-bottom: -20px;
+color: #464646;
+}
+h3 {
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+padding-top: 10px;
+margin-left: 20px;
+color: #464646;
+}
+p {
+margin: 20px 0;
+}
+a:link, a:visited, a:hover, a:active {
+text-decoration: none;
+}
+.description, .article {
+width: 90%;
+max-width: 960px;
+margin: 10px auto;
+}
+.description {
+padding-top: 50px;
+padding-bottom: 5px;
+text-align: center;
+}
+.article {
+color: #464646;
+}
+.article h1 {
+color: #384e56;
+margin-top: 60px;
+text-transform: uppercase;
+}
+.article h2 a:link, .article h2 a:visited  {
+color: #000000;
+transition: color 0.1s ease;
+}
+.answer a:hover {
+color: #000000;
+transition: color 0.1s ease;
+}
+.admincontainer{
+width: 50%;	
+margin: 10px auto;
+}
+.adminwrapper{
+width: 100%;
+min-height: 30px;
+margin-top: 10px;
+}
+/* admin usernames */
+.username {
+width: 50%;
+float: left;
+min-height: 40px;
+}
+/* admin actions */
+.actions {
+float: right;
+min-height: 40px;
+}
+.newadmin {
+padding-top: 50px;
+margin-left: 150px;
+}
+.faqactions {
+margin-top: 5px;
+float: left;
+}
+.article h2 a:hover {
+color: #000000;
+transition: color 0.3s ease;
+}
+.sug {
+width: 90%;  
+margin: auto;
+padding: 10px;
+}
+/* SPECIAL */
+.summary {
+color: #59323C;
+margin-top: 40px;
+margin-bottom: 60px;
+}
+*[draggable=true] {
+-khtml-user-drag: element;
+cursor: move;
+}
+.dropwrapper {
+margin: 10px auto;
+width: 97%;
+margin-left: 40px;
+}
+
+.inwrapper {
+float: left;
+width: 45%;
+}
+.outwrapper {
+float: right;
+width: 45%;
+}
+#drop {
+border: 3px dashed #588C7E;
+padding: 10px;
+background: #F2EEB3;
+min-height: 150px;
+width: 87%;
+margin: 10px auto;
+text-align: center;
+}
+#drop .mathInput {
+color: #464646;
+text-align: center;
+}
+#drop ul {
+margin: 0;
+padding: 0;
+}
+#drop li {
+list-style: none;
+padding: 5px;
+font-size: 90%;
+}
+#drop li:first-child {
+border-top: 0;
+}
+#feedback_closed {
+visibility: hidden;
+min-height: 50px;
+}
+#suggestions {
+visibility: hidden;
+min-height: 50px;
+}
+textarea {
+overflow: auto;
+padding: 0px;
+min-height: 150px;
+width: 100%;
+resize: none;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+::-webkit-input-placeholder {
+padding: 5px;
+}
+*::-moz-placeholder {
+padding: 5px;
+}
+input[type=radio] {
+visibility: hidden;
+}
+input[type=submit] {
+background: #3498db;
+background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+background-image: -o-linear-gradient(top, #3498db, #2980b9);
+background-image: linear-gradient(to bottom, #3498db, #2980b9);
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+text-shadow: 3px 2px 3px #050005;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+background: #3498db;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+margin-left: 5%;
+}
+input[type=submit]:hover {
+background: #3cb0fd;
+background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+text-decoration: none;
+}
+.pageup {
+-ms-transform: rotate(180deg); 
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+float:  right;
+height: 16px;
+width: 16px;
+}
+
+
+/* responsive css */
+@media (max-width: 475px) {
+    .admincontainer {
+        width: 80%;
+    }
+
+    .newadmin {
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 345px) {
+    .question {
+    padding-bottom: 40px;
+    }
+    .answer {
+    width: 20%;
+    }
+}

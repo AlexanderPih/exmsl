@@ -1,0 +1,123 @@
+/* colours:
+navabar:
+#260126
+contenu:
+#BFAF80
+main page:
+body:
+#F2EEB3
+#59323C
+footer:
+#8C6954
+*/
+
+.fixedbar {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+width: 100%;
+height: 50px;
+background-color: #260126;
+}
+.fixedbar img{
+
+}
+.contenu {
+margin-top:  50px;
+}
+.fixedbar li, .fixedbar a {
+height: 50px;
+line-height: 50px;
+}
+.menu {
+width: 90%;
+max-width: 960px;
+margin: 0 auto;
+}
+.menu a, .menu a:visited {
+color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+color: #ebebeb;
+}
+.menuliste {
+display: inline-block;
+}
+.sitelogo {
+display: inline-block;
+margin-right: 20px;
+margin-left:  10px;
+}
+a.sitelogo, a:visited.sitelogo {
+color: #ffffff;
+}
+.menuliste li {
+display: inline-block;
+margin-right: 10px;
+margin-left: 10px;
+}
+.menuliste a {
+text-decoration: none;
+}
+.visible, .invisible {
+display: none;
+padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center left;
+color: #dde1e2;
+}
+.visible {
+background-image: url(../images/down-arrow-icon.png);
+}
+.invisible {
+background-image: url(../images/up-arrow-icon.png);
+}
+
+@media only screen and (max-width: 800px) {
+.menu { 
+position: relative;
+width: 100%;
+}
+.sitelogo {
+position: absolute;
+top: 0;
+left: 15px;
+margin-left: 0px;
+}
+.menuliste {
+display: none; 
+width: 100%;
+margin-top: 50px;
+background-color: #008378;
+}
+.menuliste li {
+display: block;
+text-align: center;
+}
+.visible, .invisible {  
+position: absolute;
+top: 0;
+right: 15px;
+}
+.visible {
+display: inline-block;
+}
+.invisible {
+display: none;
+}
+#menu:target .visible {
+display: none;
+}
+#menu:target .invisible, #menu:target .menuliste {
+display: inline-block;
+}
+}
+
+@media only screen and (max-width: 220px) {
+.sitelogo, .visible, .invisible {
+font-size: 14px;
+  }
+}
